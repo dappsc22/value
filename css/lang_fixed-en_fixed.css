@@ -1,0 +1,134 @@
+.lang_en{color:#91ffe8 !important;}
+.stop_lose-select + .ask-bid-price {left: 126px;}
+#tradeTabs>li{width: 158px !important;}
+.fund-deposit,.fund-withdraw,.fund-to-trade{width: 70px;}
+.info_sub {width: 50px;}
+#marketlist_controller .button:hover em:after{content: '' !important;}
+#ask_offset_num:empty:before,#bid_offset_num:empty:before {content: 'Optional';}
+.rise-green-body .up .type{color:#007980;}
+.rise-green-body .down .type{color:#e64e62;}
+.dataTables_wrapper .dataTables_filter input{width: 205px;}
+body.en-body .softKeyBoard{right: 210px !important;top: -140px}
+body.en-body .search-select-dropdown{top: -100px;width: 202px;top: -100px !important}
+
+#deal-info-box .trade-list_re .time,#deal-info-box .trade-list_re .price,#deal-info-box .trade-list_re .currb-unit,#deal-info-box .trade-list_re .t-amount,#deal-info-box .trade-list_re .t-total{font-size:13px !important;}
+/*合约*/
+.close-pos-bottom-tips{line-height: 20px;padding-left: 11px;}
+/* hodl */
+.finance-info-btn div{padding: 0 4px !important;}
+/*屏幕适配*/
+.tradeguide-tab .tab-nav .tab-nav-item{font-size:14px}
+#mainListBox th b{}
+#listBtn li{font-size:14px;padding: 0px 8px;}
+#marketlist_controller .button{font-size:13px !important;padding: 0px 12px;}
+@media screen and (max-width: 1410px){
+    #wallet .item{font-size:15px !important}
+}
+@media screen and (max-width: 1310px){
+    #marketlist_controller .button{padding: 0px 4px;}
+    .left_con .marketlist th.day-updn{
+        padding-right: 0;
+    }
+    .left_con .marketlist td:nth-child(2), .left_con .marketlist th:nth-child(2){width: 16%}
+    .left_con .marketlist td:nth-child(6), .left_con .marketlist th:nth-child(6){width: 12%}
+}
+form[action="/myaccount/myfuturesbilling"] #action_type{width: 220px !important;}
+@media screen and (max-width: 1600px){
+    #wallet .item{
+    	font-size:12px !important;
+    	border-bottom-width: 1px !important;
+    	top: 0 !important;
+    }
+}
+@media screen and (max-width: 1400px){
+    #wallet .item{margin-right: 0 !important;padding: 0 5px !important;}
+}
+#hideZbtn .HideZeroDiv-subdiv .small-exchange{
+    margin-left: 5px;
+}
+@media screen and (max-width: 1600px){
+    .margin_funds_table_right_button a.fund-deposit,
+    .margin_funds_table_right_button a.fund-withdraw,
+    .margin_funds_table_right_button a.fund-to-trade{
+        width: 60px !important;
+    }
+    #opPanel li.opr-icon,.global-search-service-container{padding-left: 8px;}
+    #headLayout{padding: 10px 20px;}
+    #mainNav{margin-left: 5px;}
+}
+#topCalendarLink.index_page{
+    right: 155px;
+}
+@media screen and (max-width: 1280px){
+    .addNewContent{height: 620px !important}
+}
+.noVerify .toVerify{right: -4px}
+#gInfoTitle{
+    font-size: 16px;
+}
+@media screen and (max-width: 1550px) {
+    #gInfoTitle,#tradeTabs li,.trade-main .m_title{font-size: 13px;}
+}
+#opPanel li#accSettings #settingList{width: 236px}
+.pop-box .sjjd em {font-size: 12px !important;bottom: -35px;}
+.tier-info .safety-strength-view{padding: 0 5px;}
+.global-setting-item.reftime-setting{min-width: 150px;}
+.global-setting-item.rise-fall-box{min-width: 190px;}
+#gInfoTitle span#odTitle,
+#gInfoTitle span#gmTitle,
+#gInfoTitle span#newsTitle,
+#gInfoTitle span#expand,
+#gInfoTitle span#coinInfo{
+    margin-right: 5px;
+}
+.special-top{
+    margin-top:15px;
+}
+.given-width{
+    width:240px !important;
+}
+.bot-font{
+    display: inline-block;
+    word-break: break-all;
+}
+.nologin-width{
+    width:241px;
+    text-align: center;
+}
+.fixed-width{
+    width:320px !important;
+}
+@media screen and (max-width: 1750px){
+    #iconMenu{
+        /* margin-left: 10px; */
+    }
+}
+@media screen and (max-width: 1660px){
+    #mainNav a{
+        font-size: 13px;
+    }
+    #unify-account-settings>span, #walletSettings>span, #orderSettings>span{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 1380px){
+    #mainNav a{
+        font-size: 12px;
+        padding: 0 2px 0 10px;
+    }
+    #unify-account-settings>span, #walletSettings>span, #orderSettings>span{
+        font-size: 12px;
+    }
+}
+#opPanel li.opr-icon,.global-search-service-container{padding-left: 10px;}
+.r-title{font-size: 12px;}
+.rank-entry-list{min-width:150px!important;}
+
+#root .ant-menu-inline .ant-menu-item, #root .ant-menu-inline .ant-menu-submenu-title{padding: 0 36px !important;}
+#root .ant-menu-sub.ant-menu-inline > .ant-menu-item, #root .ant-menu-sub.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title{
+    padding: 0 16px 0 72px !important;
+}
+.jiaoyi_btn > span{margin: 0 2px}
+.push-con .dealbox .input-td.td-view .sub_btn{font-size: 12px;}
+#sBar .softKeyBoard{top:0}
+#sBar .search-select-dropdown{top:unset !important;}

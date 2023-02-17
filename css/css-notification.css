@@ -1,0 +1,144 @@
+@charset "UTF-8";
+.Oprientation-GuidePopup-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  right: 0;
+  animation: frame 0.3s linear;
+  box-shadow: 0px 8px 24px 0px rgb(0 0 0 / 8%);
+  bottom: 12px;}
+  .Oprientation-GuidePopup-wrapper ul,
+  .Oprientation-GuidePopup-wrapper li {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .Oprientation-GuidePopup-wrapper p {
+    margin: 0;
+    padding: 0; }
+  .Oprientation-GuidePopup-wrapper .mark {
+    position: fixed;
+    background: #000000ab;
+    inset: 0; 
+    width: 100%;
+    top: 0;
+    bottom: 0;}
+  .Oprientation-GuidePopup-wrapper .close1 {
+    cursor: pointer;
+    position: absolute;
+    padding: 28px 28px 0 0;
+    right: 0; }
+  .Oprientation-GuidePopup-wrapper .guide-title {
+    min-height: 54px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #3C3C3C;
+    line-height: 30px;
+	line-height: 54px;
+    /* padding-top: 24px; */
+    text-align: left;}
+  .Oprientation-GuidePopup-wrapper .notice-guide-title{border-bottom: 1px solid #F0F0F0;padding-left: 24px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;padding-right: 48px;}
+  .Oprientation-GuidePopup-wrapper .guide-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px; }
+    .Oprientation-GuidePopup-wrapper .guide-footer .guide-bottom-grout {
+      display: flex; }
+      .Oprientation-GuidePopup-wrapper .guide-footer .guide-bottom-grout .guide-bottom {
+        cursor: pointer;
+        width: 105px;
+        height: 42px;
+        font-size: 14px;
+        background: #E64E62;
+        border-radius: 2px;
+        color: #fff;
+        text-align: center;
+        line-height: 42px; }
+      .Oprientation-GuidePopup-wrapper .guide-footer .guide-bottom-grout .guide-bottom-text {
+        background: #fff;
+        color: #6A6A6A;
+        border: 0; }
+      .Oprientation-GuidePopup-wrapper .guide-footer .guide-bottom-grout .guide-bottom-disabled {
+        background: #DBD7D7; }
+  .Oprientation-GuidePopup-wrapper .guide-flex-end {
+    justify-content: flex-end; }
+.Oprientation-GuidePopup-wrapper .GuidePopup-layout {
+  position: relative;
+  z-index: 999;
+}
+  .Oprientation-GuidePopup-wrapper .videoPopup {
+    box-sizing: border-box;
+	width: auto !important;
+    height: auto !important;
+    padding: 0 !important;
+    background: transparent !important;
+  }
+    .Oprientation-GuidePopup-wrapper .videoPopup .video-warp-en {
+      display: none; }
+    .Oprientation-GuidePopup-wrapper .videoPopup .video-warp {
+      margin-top: 36px; }
+
+.en-wrapper .GuidePopup-layout .videoPopup .video-warp {
+  display: none; }
+.en-wrapper .GuidePopup-layout .videoPopup .video-warp-en {
+  display: block;
+  margin-top: 36px; }
+
+.hidden {
+  display: none; }
+
+.classic-dark .Oprientation-GuidePopup-wrapper .GuidePopup-layout .guide-title,
+.dark-body .Oprientation-GuidePopup-wrapper .GuidePopup-layout .guide-title {
+color: #E0E0E0; 
+
+}
+.classic-dark .Oprientation-GuidePopup-wrapper .GuidePopup-layout .videoPopup,
+.dark-body .Oprientation-GuidePopup-wrapper .GuidePopup-layout .videoPopup {
+background: #232429; 
+
+}
+.classic-dark .Oprientation-GuidePopup-wrapper .GuidePopup-layout .guide-footer,
+.dark-body .Oprientation-GuidePopup-wrapper .GuidePopup-layout .guide-footer {
+color: #6A6A6A; 
+
+}
+.classic-dark .Oprientation-GuidePopup-wrapper .GuidePopup-layout .guide-footer .guide-bottom-text,
+.dark-body .Oprientation-GuidePopup-wrapper .GuidePopup-layout .guide-footer .guide-bottom-text {
+background: #232429;
+color: #6A6A6A;
+border: 0; }
+.Oprientation-GuidePopup-wrapper .popup-close{width: 32px;height: 32px;position: absolute;top: 1.2rem;z-index: 1000;right: 1.2rem;background-image: url(../fonts/images-close.svg);cursor: pointer;background-color: #ccc;border-radius: 50%;background-repeat: no-repeat;background-position: center center;}
+.Oprientation-GuidePopup-wrapper .notice-body{cursor: pointer;}
+.Oprientation-GuidePopup-wrapper .notice-image{min-width: 460rem;max-width: 640rem;border-radius: 8px;object-fit: fill;overflow: hidden;min-height: 360rem;}
+.Oprientation-GuidePopup-wrapper .notice-content{font-size: 14px;font-weight: 400;line-height: 20px;word-break: break-word;max-height: 80px;overflow: hidden;text-overflow: ellipsis; display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 4;}
+.Oprientation-GuidePopup-wrapper .notice-footer{padding-right: 24px;}
+.GuidePopup-new-wrapper{ animation: frame 0.3s linear;cursor: pointer;overflow: hidden;width: 400px;background: #FFFFFF;box-shadow: 0px 8px 24px 0px rgb(0 0 0 / 8%);border-radius: 8px;position: fixed;transform: translate(-50%, -50%);padding: 16px 24px !important;z-index: 10000;box-sizing: border-box;}
+.GuidePopup-new-title{font-size: 18px;font-weight: 500;color: #333;line-height: 26px;margin-bottom: 16px !important;border-right: 0px;}
+.GuidePopup-new-content{font-size: 14px;font-weight: 400;color: #333;line-height: 20px;word-break: break-word;max-height: 80px;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;}
+.GuidePopup-new-image{width: 352px;margin-top: 16px;}
+.GuidePopup-new-close{width: 22px;height: 22px;position: absolute;top: 15px;right: 18px;background-image: url(../fonts/images-close.svg);cursor: pointer;background-repeat: no-repeat;background-position: center center;}
+#popup-root .GuidePopup-new-tooltips-content{background-color: #fff !important;box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1) !important;border-radius: 4px !important;width: 240px !important;color: #333 !important;}
+#popup-root .GuidePopup-new-tooltips-arrow{ color: #fff !important;}
+.GuidePopup-new-title:hover, .GuidePopup-new-content:hover{color: #666 !important;}
+@keyframes frame {
+	from{
+		bottom: 0;
+	}
+	to{
+		bottom: 28px;
+	}
+} 
+@media screen and (min-width:1440px) {
+  .Oprientation-GuidePopup-wrapper .notice-image {
+	width: 460rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */
+.classic-dark .Oprientation-GuidePopup-wrapper .popup-close{
+	width: 32px;height: 32px;position: absolute;top: -45px;right: 0px;background-image: url(../fonts/images-close_white.svg);cursor: pointer;background-color: #ccc;border-radius: 50%;background-repeat: no-repeat;background-position: center center;
+}
+.classic-dark .GuidePopup-new-wrapper{background: #141417;}
+.classic-dark .Oprientation-GuidePopup-wrapper .guide-title{color: #fff;}

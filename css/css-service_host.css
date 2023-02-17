@@ -1,0 +1,31 @@
+.service-host #logoSection *,
+.service-host #walletSettings,
+.service-host #orderSettings,
+.service-host .footer-view,
+.service-host #toolsMenu,
+.service-host .activity_link,
+.service-host #tierMenu .account-to-setting,
+.service-host .user_center_msg
+{
+    display: none;
+}
+.service-host #langListBox .opt-view:nth-child(2) {
+    display: none !important;
+}
+.service-host #tierMenu .toTickets,
+.service-host #tierMenu .toSystem,
+.service-host #tierMenu .toHelp
+{
+    display: block;
+}
+#service_host_linkBox {
+    display: flex;
+    margin-left: 140px;
+    flex-direction: row;
+}
+#service_host_linkBox .toSystem,
+#service_host_linkBox .toTickets,
+#service_host_linkBox .toHelp{
+    margin-right: 30px;
+    font-size: 16px;
+}
